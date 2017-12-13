@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host){
-  var autoproxy = 'PROXY 127.0.0.1:8087';
+  var autoproxy = 'PROXY https://github.com/swearToGod/proxy/blob/master/';
   if (url.indexOf("bug.mvbox.com") != 0) return autoproxy;
   return "DIRECT";
 }
